@@ -1,0 +1,46 @@
+/* Estilo da página */
+        body {
+            background-color: #f4e6c3;
+        }
+/* Título */
+        #meu-nome{color:#4b2e2e; 
+            text-align: center;
+            font-size: 36px
+        }
+/* Parágrafo */
+        #autobiografia{ text-align: justify;
+            font-size: 20px
+        }
+/* Lista */
+        ul li {
+            margin-bottom: 15px;
+        }
+/* Imagem do hobby */
+        .hobbie-ouvir-musica {
+            border-radius: 15px
+        }
+/* Tabela */
+        table {
+            border-collapse: collapse;
+            width: 20%;
+            margin-top: 20px;
+        }
+        table, th, td{
+            border: 1px solid #888;
+            padding: 12px;
+            text-align: center;
+            font-size: 22px
+        }
+        caption {
+            font-weight: bold;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+/* Links */
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            color: red;
+        }
